@@ -65,8 +65,8 @@ data
 
 ```bash
 # Clone the repository
-git clone https://github.com/SunnyC0DE/intent-nlp-chatbot.git
-cd intent-nlp-chatbot
+git clone https://github.com/SunnyC0DE/Intent-Based-Chatbot.git
+cd Intent-Based-Chatbot
 
 # Install dependencies
 pip install -r requirements.txt
