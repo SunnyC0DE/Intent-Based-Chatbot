@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "What's up?", "How are you?", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!", "I'm here to help you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Catch you later", "Talk to you soon"],
+      "responses": ["Goodbye!", "See you later!", "Have a nice day!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thx", "Thanks a lot"],
+      "responses": ["You're welcome!", "Glad to help!", "No problem!", "Anytime!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I am your personal AI assistant.", "I'm your AI companion!", "You can call me Jarvis."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What is your age?", "When were you created?"],
+      "responses": ["I'm timeless.", "I was created to help you, not to age!", "I live in the cloud... age doesn't matter here."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who created you?", "Who is your developer?"],
+      "responses": ["I was created by my developer using Python and AI.", "A smart human like you made me!", "I was built with love and code."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it raining today?", "Do I need an umbrella?"],
+      "responses": ["I can't tell you now, but soon I’ll be able to check the weather for you!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+      "responses": ["Why did the AI get promoted? Because it had deep learning!", "I would tell you a UDP joke, but you might not get it."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help me", "I need assistance", "Can you help?", "I’m stuck"],
+      "responses": ["Sure! What do you need help with?", "I'm here to help—ask me anything!", "Yes, I'm listening."]
+    },
+    {
+      "tag": "get_time",
+      "patterns": ["what time is it", "tell me the time"],
+      "responses": [""]},
+    {
+      "tag": "get_weather",
+      "patterns": ["what's the weather", "tell me the weather"],
+      "responses": [""]},
+    {
+      "tag": "web_search",
+      "patterns": ["search for", "look up"],
+      "responses": [""]}
+
+  ]
+}
+
+
