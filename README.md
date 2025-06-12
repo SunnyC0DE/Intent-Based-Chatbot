@@ -28,3 +28,51 @@ It then responds accordingly with a message or an action (like telling the curre
 
 ## 📂 Project Structure
 
+
+Model1
+|_             data
+|_             __pycache__
+|_             chat.py
+|_           chatbot_model.h5
+|_            classes.pkl
+|_           model.py
+|_           preprocessing.py
+|_            word.pkl
+|_           x_train.pkl
+|_           y_train.pkl
+
+
+
+data
+|_           intents.json
+
+
+
+---
+
+## 🔧 Technologies Used
+
+- Python 3
+- TensorFlow / Keras
+- NLTK (`punkt`, `wordnet`, `lemmatizer`)
+- NumPy
+- Pickle
+- Webbrowser / datetime / requests
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/SunnyC0DE/intent-nlp-chatbot.git
+cd intent-nlp-chatbot
+
+# Install dependencies
+pip install -r requirements.txt
+
+# (Optional) Re-train the model
+python train_model.py
+
+# Run the chatbot
+python chatbot.py
