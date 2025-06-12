@@ -72,7 +72,8 @@ cd Intent-Based-Chatbot
 pip install -r requirements.txt
 
 # (Optional) Re-train the model
-python train_model.py
+python preprocessing.py
+python model.py
 
 # Run the chatbot
-python chatbot.py
+python chat.py
